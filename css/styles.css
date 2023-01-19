@@ -203,11 +203,11 @@ a {
 }
 .btn--outline {
     background: #fff;
-    color: var(--color-headings);
-    border: 2px solid var(--color-headings);
+    color: var(--color-heading);
+    border: 2px solid var(--color-heading);
 }
 .btn--outline:hover {
-    background: var(--color-headings);
+    background: var(--color-heading);
     color:#fff;
 }
 .btn--strechted {
@@ -215,7 +215,7 @@ a {
     padding-right: 6rem;
 }
 .btn--accent {
-    background: var(--color--accent);
+    background: var(--color-accent);
     color: #fff
 }
 .btn--primary:hover {
@@ -543,7 +543,10 @@ color: #fff;
     margin-bottom: 4rem;
 }
 .block__heading {
-    margin-top: 0;
+    margin-top: 0rem;
+}
+.block-h2{
+padding-top: 8rem;
 }
 .block--dark {
     background: #000;
@@ -640,7 +643,10 @@ border-radius: 5px;
         text-align: left;
         align-self: center;
     }
-    .hero__image
+    .hero__image{
+        display: flex;
+        -ms-flex-align: end;
+    }
 }
 
 /* Domain Block */
